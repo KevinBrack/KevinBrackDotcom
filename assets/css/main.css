@@ -2112,6 +2112,9 @@ ul.actions.special {
 .wrapper.style1 a {
   color: #fff;
 }
+.wrapper.style1 {
+  color: #fff;
+}
 
 .wrapper.style2 {
   background: #fff;
@@ -2123,16 +2126,24 @@ ul.actions.special {
 }
 
 .wrapper.style3 {
-  background: #f3f3f3 url("images/overlay.png");
+  background: #9b9b9b url("images/overlay.png");
+  color: #fff;
 }
 
 .wrapper.style3 .title {
-  background: #f3f3f3 url("images/overlay.png");
-  color: #484d55;
+  background: #9b9b9b url("images/overlay.png");
+  color: #fff;
 }
 
 .wrapper.style3 .image {
   border: solid 10px #fff;
+}
+
+.about-me {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10rem;
 }
 
 /* Page Wrapper */
