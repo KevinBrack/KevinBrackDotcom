@@ -199,6 +199,11 @@ header nav a {
   font-size: 3rem;
   font-weight: 700;
   margin: 0.5rem;
+  margin-left: 2rem;
+}
+
+.last-nav {
+  margin-right: 2rem;
 }
 
 /*HERO*/
@@ -227,6 +232,13 @@ header nav a {
 /*ABOUT*/
 .about {
   background-color: #bbf2c3;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /*PROJECTS*/
