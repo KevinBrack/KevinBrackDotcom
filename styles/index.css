@@ -135,7 +135,7 @@ html {
 
 /*SECTION*/
 section {
-  padding: 6rem 10%;
+  padding: 6rem 20%;
 }
 
 /*TEXT STYLING*/
@@ -193,7 +193,7 @@ header nav a {
 .logo p {
   font-family: Roboto;
   color: #bbf2c3;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   margin: 0.5rem;
 }
@@ -208,16 +208,17 @@ header nav a {
 }
 
 .hero h1 {
-  padding-top: 30vh;
+  padding-top: 40vh;
 }
 .hero h3 {
-  padding-bottom: 30vh;
+  padding-bottom: 40vh;
 }
 
 .hero-img {
   height: 100%;
   width: 100%;
   background-image: url("../images/PSDin/Layer_6.png");
+  background-size: cover;
 }
 
 /*ABOUT*/
@@ -250,7 +251,7 @@ header nav a {
 
 .proficencies ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -259,7 +260,7 @@ header nav a {
   color: #114956;
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin: 1rem 2rem;
 }
 
 /*FOOTER*/
@@ -272,8 +273,12 @@ footer {
   width: 60%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 2rem;
+}
+
+.icon-wrapper a {
+  margin: 1rem;
 }
 
 .copyright {
