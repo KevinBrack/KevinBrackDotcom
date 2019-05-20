@@ -2,10 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
-      name="viewport"
-      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <link href="styles/index.css" rel="stylesheet" />
     <link
@@ -175,6 +172,18 @@
     </section>
     <section class="proficencies">
       <h2>PROFICENCIES</h2>
+      <div class="acclaim-badge">
+        <div
+          data-iframe-width="150"
+          data-iframe-height="270"
+          data-share-badge-id="a5aaf331-50d9-4463-9ce0-761c98427341"
+        ></div>
+        <script
+          type="text/javascript"
+          async
+          src="//cdn.youracclaim.com/assets/utilities/embed.js"
+        ></script>
+      </div>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -190,39 +199,44 @@
     </section>
     <footer>
       <div class="icon-wrapper">
-        <a href="#"
+        <a href="https://www.linkedin.com/in/kevin-brack-273a25a0/"
           ><img
             src="images/PSDin/iconmonstr-linkedin-2_copy.png"
             width="50"
             height="50"
             alt=""
         /></a>
-        <a href="#"
+        <a href="https://github.com/KevinBrack"
           ><img
             src="images/PSDin/iconmonstr-github-2_copy.png"
             width="50"
             height="50"
             alt=""
         /></a>
-        <a href="#"
+        <a href="https://twitter.com/KevinBrack"
           ><img
             src="images/PSDin/iconmonstr-twitter-2_copy.png"
             width="50"
             height="50"
             alt=""
         /></a>
-        <a href="#"
-          ><img
+        <div id="email-button" onclick="toggleContactVisibility()">
+          <img
             src="images/PSDin/iconmonstr-gmail-2.png"
             width="50"
             height="50"
             alt=""
-        /></a>
-        <a href="#"
-          ><img src="images/PSDin/PhoneIcon.png" width="50" height="50" alt=""
-        /></a>
+          />
+        </div>
+        <div id="phone-button" onclick="toggleContactVisibility()">
+          <img src="images/PSDin/PhoneIcon.png" width="50" height="50" alt="" />
+        </div>
+      </div>
+      <div id="contact-display">
+        <p>brackkevin@gmail.com<br />(219)613-1813</p>
       </div>
       <p class="copyright">© Kevin Brack 2019</p>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
