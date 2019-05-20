@@ -332,11 +332,16 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .icon-wrapper a {
   margin: 1rem;
+}
+
+.icon-wrapper div {
+  margin: 1rem;
+  cursor: pointer;
 }
 
 .copyright {
@@ -344,4 +349,13 @@ footer {
   color: #bbf2c3;
   font-size: 18px;
   font-weight: 700;
+}
+
+#contact-display {
+  visibility: hidden;
+  margin-bottom: 0.5rem;
+}
+
+#contact-display.visible {
+  visibility: visible;
 }
