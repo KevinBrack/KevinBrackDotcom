@@ -216,10 +216,10 @@ header nav a {
 }
 
 .hero h1 {
-  padding-top: 40vh;
+  padding-top: 45vh;
 }
 .hero h3 {
-  padding-bottom: 40vh;
+  padding-bottom: 45vh;
 }
 
 .hero-img {
@@ -238,7 +238,11 @@ header nav a {
   width: 100%;
   height: auto;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 15vh;
+}
+
+.about p {
+  margin-bottom: 15vh;
 }
 
 /*PROJECTS*/
@@ -368,8 +372,8 @@ footer {
 }
 
 /*TABLET*/
-@media (max-width: 1300) {
+@media screen and (max-width: 1300px) {
   section {
-    padding: 6rem 5%;
+    padding: 6rem 2.5%;
   }
 }
