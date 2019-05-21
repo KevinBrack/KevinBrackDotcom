@@ -308,6 +308,8 @@ header nav a {
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  display: flex;
+  justify-content: center;
 }
 .video-responsive iframe {
   left: 0;
