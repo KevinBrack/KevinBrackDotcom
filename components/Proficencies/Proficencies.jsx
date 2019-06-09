@@ -4,7 +4,7 @@ const Proficencies = () => (
   <section className="proficencies">
     <h2>proficencies</h2>
     <div className="acclaim-badge">
-      <div
+      <iframe
         data-iframe-width="150"
         data-iframe-height="270"
         data-share-badge-id="a5aaf331-50d9-4463-9ce0-761c98427341"
