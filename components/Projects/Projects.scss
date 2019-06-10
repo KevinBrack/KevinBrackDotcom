@@ -1,0 +1,54 @@
+/*PROJECTS*/
+.projects {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  /* grid-column-gap: 1rem; */
+  /* grid-row-gap: 3rem; */
+  margin: 0 auto;
+}
+
+.grid-image img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.grid-desc {
+  padding: 2rem;
+  background: #ffffff;
+  border: 1px solid black;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+}
+
+.grid-desc a {
+  text-decoration: none;
+}
+
+.grid-desc h4 {
+  text-align: left;
+  font-family: Roboto;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-desc ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-desc ul li {
+  padding: 0.5rem 0.25rem;
+}
+
+.grid-desc p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 1rem 0;
+}

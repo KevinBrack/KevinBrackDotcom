@@ -1,0 +1,25 @@
+/*PROFICENCIES*/
+.proficencies {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.proficencies ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.proficencies li {
+  font-family: Roboto;
+  color: #114956;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 2rem;
+}
+
+.acclaim-badge {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
