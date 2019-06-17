@@ -12,9 +12,12 @@ body {
 
 /*SECTION*/
 section {
-  padding: 6rem 15%;
+  padding: 6rem 25%;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
+    padding: 6rem 15%;
+  }
+  @media screen and (max-width: 900px) {
     padding: 6rem 2.5%;
   }
 }
