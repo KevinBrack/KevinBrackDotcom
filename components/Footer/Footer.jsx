@@ -27,22 +27,6 @@ const Footer = () => (
           alt=""
         />
       </a>
-      <div id="email-button">
-        <img
-          src="/static/images/PSDin/iconmonstr-gmail-2.png"
-          width="50"
-          height="50"
-          alt=""
-        />
-      </div>
-      <div id="phone-button">
-        <img
-          src="/static/images/PSDin/PhoneIcon.png"
-          width="50"
-          height="50"
-          alt=""
-        />
-      </div>
     </div>
     <div id="contact-display">
       <p>
