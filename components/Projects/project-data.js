@@ -4,7 +4,14 @@ const projectsData = [
     alt: "rate it yourself",
     href: "https://how-tutor.netlify.com/",
     heading: "Rate It Yourself",
-    techStack: ["React","Redux","Express","PassportJS","Postgres","Bootstrap"],
+    techStack: [
+      "React",
+      "Redux",
+      "Express",
+      "PassportJS",
+      "Postgres",
+      "Bootstrap"
+    ],
     bullets: [
       "Team Lead overseeing the development by 4 web developers, 1 iOS developer, and 1 UI/UX designer",
       "Created reusable components, with Bootstrap elements to match the designers vision",
@@ -14,11 +21,25 @@ const projectsData = [
     source: "https://github.com/labs13-how-to"
   },
   {
+    img: "/static/images/projects/quakespect.jpg",
+    alt: "quakespect",
+    href: "https://quakespect.herokuapp.com/",
+    heading: "Quakespect",
+    techStack: ["Flask", "Python", "Foleum", "Plotly", "Bootstrap"],
+    bullets: [
+      "Team Lead overseeing the development by 4 data scientists",
+      "Created web templates in Flask to highlight the groups findings",
+      "Created design elements, theeming, and used bootstrap to provide a mobile responsive showcase",
+      "Multiple data sets and explorations showcased including earthquake damage, and financial market impact"
+    ],
+    source: "https://github.com/labs13-quake-viewer"
+  },
+  {
     img: "/static/images/projects/moodi-beats.jpg",
     alt: "moody beats",
     href: "https://moodibeats.com/",
     heading: "Moodi Beats",
-    techStack: ["React","Express","Django","StyledComponents","Postgres"],
+    techStack: ["React", "Express", "Django", "StyledComponents", "Postgres"],
     bullets: [
       "Team Lead overseeing the development by 5 web developers, and 2 data scientists",
       "Google API used for authentication and YouTube integration",
