@@ -1,10 +1,13 @@
 import "./Navbar.scss";
+import Link from "next/link";
 
 const Navbar = () => (
   <header>
-    <div className="logo">
-      <p>KB</p>
-    </div>
+    <a href="/">
+      <div className="logo">
+        <p>KB</p>
+      </div>
+    </a>
     <nav>
       <a href="https://resume.creddle.io/resume/itr2v0muan6" target="blank">
         RESUME
