@@ -1,6 +1,8 @@
+@import "../../sass/variables.scss";
+
 /*FOOTER*/
 footer {
-  background-color: #11a0d9;
+  background-color: $dark-gray;
   padding: 2rem;
 }
 
@@ -28,10 +30,10 @@ footer {
   font-weight: 700;
 }
 
-#contact-display {
-  visibility: hidden;
-  margin-bottom: 0.5rem;
-}
+// #contact-display {
+//   visibility: hidden;
+//   margin-bottom: 0.5rem;
+// }
 
 #contact-display.visible {
   visibility: visible;
