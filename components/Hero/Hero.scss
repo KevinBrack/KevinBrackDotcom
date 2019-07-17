@@ -1,3 +1,5 @@
+@import "../../sass/variables.scss";
+
 .hero {
   background-image: -webkit-linear-gradient(90deg, #11a0d9 0%, #bbf2c3 100%);
   background-image: -moz-linear-gradient(90deg, #11a0d9 0%, #bbf2c3 100%);
@@ -8,11 +10,13 @@
   border-bottom: 1px solid rgb(222, 226, 230);
 
   h1 {
-    padding-top: 45vh;
+    padding-top: 30vh;
+    color: $dark-gray;
   }
 
   h3 {
-    padding-bottom: 45vh;
+    padding-bottom: 30vh;
+    color: $dark-gray;
   }
 }
 
