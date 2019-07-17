@@ -28,13 +28,13 @@ const Footer = () => (
         />
       </a>
     </div>
-    <div id="contact-display">
+    {/* <div id="contact-display">
       <p>
         brackkevin@gmail.com
         <br />
         (219)613-1813
       </p>
-    </div>
+    </div> */}
     <p className="copyright">© Kevin Brack 2019</p>
   </footer>
 );
