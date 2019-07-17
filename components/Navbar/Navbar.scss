@@ -1,5 +1,7 @@
+@import "../../sass/variables.scss";
+
 header {
-  background: #11a0d9;
+  background: $dark-gray;
   height: 4rem;
   display: flex;
   justify-content: space-between;
