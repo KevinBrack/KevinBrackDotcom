@@ -19,6 +19,7 @@ class MyDocument extends Document {
             src="https://www.googletagmanager.com/gtag/js?id=UA-141758815-1"
           />
           <script src="/static/js/analytics.js" />
+          <meta name="theme-color" content="#26292b" />
         </Head>
         <body>
           <Main />
