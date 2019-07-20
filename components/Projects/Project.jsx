@@ -18,7 +18,7 @@ const Project = props => {
             project.techStack.map((item, i) => <li key={i}>[ {item} ]</li>)}
         </ul>
         {project.bullets.length > 0 &&
-          project.bullets.map((item, i) => <p key={i}>{item}</p>)}
+          project.bullets.map((item, i) => <p key={i}>&#8226; {item}</p>)}
         <a href={project.source} className="source" target="blank">
           SOURCE CODE
         </a>
