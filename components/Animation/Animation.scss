@@ -1,7 +1,9 @@
+@import "../../sass/variables.scss";
+
 /*ANIMATION*/
 .animation {
   background-color: #e9ecef;
-  border-bottom: 1px solid rgb(222, 226, 230);
+  border-bottom: 1px solid $bg-2;
 }
 
 .video-responsive {

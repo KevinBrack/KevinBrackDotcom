@@ -1,6 +1,8 @@
+@import "../../sass/variables.scss";
+
 /*PROJECTS*/
 .projects {
-  background-color: #f8f9fa;
+  background-color: $bg-1;
   border-bottom: 1px solid rgb(222, 226, 230);
 }
 
@@ -20,8 +22,8 @@
 
 .grid-desc {
   padding: 2rem;
-  background: #ffffff;
-  border: 1px solid black;
+  background: $bg-2;
+  border: 1px solid $black;
   margin-bottom: 3rem;
   border-radius: 5px;
 }
@@ -34,7 +36,7 @@
   text-align: left;
   font-family: Roboto;
   font-size: 2rem;
-  color: black;
+  color: $black;
   font-weight: bold;
 }
 
